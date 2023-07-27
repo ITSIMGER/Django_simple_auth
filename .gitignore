@@ -1,0 +1,51 @@
+# Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+
+# Development and local settings
+*.env
+*.log
+*.sqlite3
+local_settings.py
+db.sqlite3
+
+# Media and static files (if not stored in a cloud storage service)
+media/
+static/
+
+# Environment-specific files
+.env.local
+.env.dev
+.env.prod
+
+# Compiled files and directories
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+node_modules/
+dist/
+build/
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Dependency directories
+venv/
+env/
+env_dev/
+env_prod/
+env_*
+
+# Other common exclusions
+*.pyc
+*.pyo
+*.egg-info/
+*.swp
+*.swo
+*.DS_Store
